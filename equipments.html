@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipments Page</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="equipments.html">Equipments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="requests.html">Requests</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Equipments Page Content -->
+<div class="container mt-4">
+    <h1>Equipments</h1>
+    <form>
+        <div class="form-group">
+            <label for="cricket">Cricket:</label>
+            <input type="number" id="cricket" name="cricket" class="form-control" min="0">
+        </div>
+        <div class="form-group">
+            <label for="football">Football:</label>
+            <input type="number" id="football" name="football" class="form-control" min="0">
+        </div>
+        <div class="form-group">
+            <label for="volleyball">Volleyball:</label>
+            <input type="number" id="volleyball" name="volleyball" class="form-control" min="0">
+        </div>
+        <div class="form-group">
+            <label for="basketball">Basketball:</label>
+            <input type="number" id="basketball" name="basketball" class="form-control" min="0">
+        </div>
+        <div class="form-group">
+            <label for="table-tennis">Table Tennis:</label>
+            <input type="number" id="table-tennis" name="table-tennis" class="form-control" min="0">
+        </div>
+        <div class="form-group">
+            <label for="carroms">Carroms:</label>
+            <input type="number" id="carroms" name="carroms" class="form-control" min="0">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- Include Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
